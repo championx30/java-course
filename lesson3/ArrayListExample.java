@@ -11,11 +11,11 @@ public class ArrayListExample {
 		List<String> list = new ArrayList<String>();
 		Collections.addAll(list, args);
 		for (int i = 0; i < list.size(); i++) {
-			System.out.println("Element at "+i+" is "+list.get(i));
+			System.out.println("Element at " + i + " is " + list.get(i));
 		}
 		System.out.println("---------");
-		IntStream.range(0, list.size()).forEach(i->{
-			System.out.println("Element at "+i+" is "+list.get(i));
+		IntStream.range(0, list.size()).forEach(i -> {
+			System.out.println("Element at " + i + " is " + list.get(i));
 		});
 	}
 }
