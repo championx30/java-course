@@ -24,6 +24,6 @@ public class ConcatenateStringTest {
 			text += String.valueOf(i);
 		}
 		end = System.currentTimeMillis();
-		System.out.println("time 3 = "+(end - start));
+		System.out.println("time 3 = " + (end - start));
 	}
 }

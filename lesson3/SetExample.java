@@ -12,7 +12,7 @@ public class SetExample {
 		numbers.add(8);
 		numbers.add(3);
 		numbers.add(12);
-		numbers.add(18);
+		numbers.add(8);
 		System.out.println("Size of set: " + numbers.size());
 	}
 }
